@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: fantasy;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.line {
+    height: 6px;
+    width: 70px;
+    background-color: black;
+    margin: 8px auto;
+}
+
+.app {
+    height: 800px;
+    width: 100%;
+    background-color: darksalmon;
+
+
+}
+
+.game {
+    height: 500px;
+    width: 100%;
+    background-color: deeppink;
+
+
+}
+
+.bot {
+    height: 800px;
+    width: 100%;
+    background-color: darkred;
+
+
+}
+
+img {
+    transition: transform 2s;
+}
+
+img:hover {
+    transform: scale(0.8);
+}
+
+a {
+    margin-left: 25px;
+    margin-right: 25px;
+}
